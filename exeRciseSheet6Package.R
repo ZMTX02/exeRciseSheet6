@@ -84,6 +84,4 @@ devtools::document(pkg = "myPackage")
 # Paket installieren und testen
 devtools::install(pkg = "myPackage")
 
-remotes::install_github("ZMTX02/exeRciseSheet6/exeRciseSheet6Package")
-
 
