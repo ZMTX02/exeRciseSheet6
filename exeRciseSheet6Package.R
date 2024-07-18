@@ -5,9 +5,6 @@ dir.create("myPackage/man")
 dir.create("myPackage/tests")
 dir.create("myPackage/vignettes")
 
-install.packages("devtools")
-install.packages("remotes")
-
 # DESCRIPTION Datei erstellen
 desc <- "
 Package: myPackage
