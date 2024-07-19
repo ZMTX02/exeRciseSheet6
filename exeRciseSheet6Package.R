@@ -75,10 +75,8 @@ test_that('sum_numbers works', {
 "
 writeLines(test_sum_numbers, "myPackage/tests/test_sum_numbers.R")
 
-# devtools verwenden um die Dokumentation zu erstellen
 devtools::document(pkg = "myPackage")
 
-# Paket installieren und testen
 devtools::install(pkg = "myPackage")
 
 
